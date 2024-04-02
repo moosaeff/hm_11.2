@@ -1,6 +1,6 @@
-def uppercase(text):
+def upper_case(input_string):
     """Функция возвращает слова в строке, со всеми заглавными буквами"""
-    return text.upper()
-def capitalized_words(word):
+    return input_string.upper()
+def capitalized_words(input_string):
     """Функция возвращает каждое слово в строке, с заглавной буквой"""
-    return ' '.join(word.capitalize() for word in word.split())
+    return input_string.title()
